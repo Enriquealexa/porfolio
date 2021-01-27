@@ -8,6 +8,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     list-style: none;
+    gap: 2em;
 }
 .item2 ul{
     color: #ffffff;
