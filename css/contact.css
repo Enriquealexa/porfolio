@@ -1,0 +1,14 @@
+#contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.item1 ul{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.item2 ul{
+    background-color: #06C8CF;
+    color: #ffffff;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}

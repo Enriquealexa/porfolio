@@ -1,0 +1,135 @@
+
+.main__container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 80px 1fr;
+}
+.main__menu{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+.main__menu ul{
+    display: flex;
+    gap: 2em;
+    opacity: 0.9;
+    list-style: none;
+    margin: 0;
+    align-items: center;
+   
+}
+.main__menu ul a{
+    font-size: 26px;
+    font-family: "NeueHaasDisplayLight", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #C28310;
+}
+.main__info{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1.5fr;
+    gap: 2em
+}
+.main_info__titles{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    justify-content: center;
+    color: #047E82;
+    padding: 2em;
+}
+.main_info__titles h2{
+    font-family: "NeueHaasDisplayLight", sans-serif;
+    font-weight: 300;
+    font-size: 5.2em;
+}
+.main_info__titles_name{
+    position: relative;
+    height: 200px;
+}
+.main_info__titles_name h2{
+    font-family: "NeueHaasDisplayMediu", sans-serif;
+    font-size: 6em;
+    position: absolute;
+}
+.main_info__block{
+    background-color: #FFFFFF;
+    margin: 2em 0;
+}
+.main_info__aside{
+    background-color: #06C8CF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4em;
+    justify-content: center;
+    padding: 0 2em;
+}
+.main_info__aside_social a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #707070;
+}
+.main_info__aside_social{
+    display: grid;
+    gap: 1em;
+}
+
+/* about section */
+
+.about__container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 50vh 50vh;
+}
+.about__me{
+    background-color: #06C8CF;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    color: #FFFFFF;
+    gap: 2em;
+    padding: 0 2em;
+    align-items: center;
+}
+.about__description{
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 300;
+    opacity: 0.8;
+}
+.about__logros{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    position: relative;
+}
+.about__logros_item figure{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about__logros_item{
+    display: grid;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about__logros_item p{
+    color: #000000;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.line{
+    position: absolute;
+    border: 2px solid white;
+    width: 72vw;
+    top: 140px;
+    right: 180px;
+    text-align: center;
+}

@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>segundo</title>
+<style id="applicationStylesheet" type="text/css">
+	.mediaViewInfo {
+		--web-view-name: segundo;
+		--web-view-id: segundo;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: segundo;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#segundo {
+		position: absolute;
+		width: 1920px;
+		height: 3103px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: segundo;
+		--web-view-id: segundo;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#fondogeneralotros {
+		fill: rgba(238,238,238,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.fondogeneralotros {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 1013px;
+		left: 0px;
+		top: 2090px;
+	}
+	#fondo_otros {
+		fill: rgba(6,200,207,1);
+	}
+	.fondo_otros {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 134px;
+		left: 0px;
+		top: 1956px;
+	}
+	#OTROS {
+		left: 939px;
+		top: 1998px;
+		position: absolute;
+		overflow: visible;
+		width: 142px;
+		height: 72px;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(255,255,255,1);
+	}
+	#imagenes_otros {
+		position: absolute;
+		width: 1787px;
+		height: 805px;
+		left: 75px;
+		top: 2195px;
+		overflow: visible;
+	}
+	#ima_celular {
+		position: absolute;
+		width: 542px;
+		height: 410px;
+		left: 1245px;
+		top: 197px;
+		overflow: visible;
+	}
+	#ima_calabera {
+		position: absolute;
+		width: 453px;
+		height: 805px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#ima_moto {
+		position: absolute;
+		width: 665px;
+		height: 374px;
+		left: 519px;
+		top: 208px;
+		overflow: visible;
+	}
+	#text_pasa_3 {
+		left: 1405px;
+		top: 1264px;
+		position: absolute;
+		overflow: visible;
+		width: 445px;
+		height: 349px;
+		text-align: left;
+		font-family: Neue Haas Grotesk Display Pro;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 30px;
+		color: rgba(4,126,130,1);
+	}
+	#text_pasa_2 {
+		left: 717px;
+		top: 1259px;
+		position: absolute;
+		overflow: visible;
+		width: 445px;
+		height: 358px;
+		text-align: left;
+		font-family: Neue Haas Grotesk Display Pro;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 30px;
+		color: rgba(4,126,130,1);
+	}
+	#text_pasa_1 {
+		left: 80px;
+		top: 1259px;
+		position: absolute;
+		overflow: visible;
+		width: 445px;
+		height: 250px;
+		text-align: left;
+		font-family: Neue Haas Grotesk Display Pro;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 30px;
+		color: rgba(4,126,130,1);
+	}
+	#imagenes_pasantias {
+		position: absolute;
+		width: 1740px;
+		height: 315px;
+		left: 80px;
+		top: 1566px;
+		overflow: visible;
+	}
+	#pasa_3 {
+		position: absolute;
+		width: 428px;
+		height: 302px;
+		left: 1312px;
+		top: 13px;
+		overflow: visible;
+	}
+	#pasa_2 {
+		position: absolute;
+		width: 478px;
+		height: 233px;
+		left: 620px;
+		top: 74px;
+		overflow: visible;
+	}
+	#pasa_1 {
+		position: absolute;
+		width: 389px;
+		height: 302px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#fondo_pasantias {
+		fill: rgba(6,200,207,1);
+	}
+	.fondo_pasantias {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 134px;
+		left: 0px;
+		top: 1068px;
+	}
+	#PASANTAS {
+		left: 893px;
+		top: 1110px;
+		position: absolute;
+		overflow: visible;
+		width: 229px;
+		height: 72px;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(255,255,255,1);
+	}
+	#lineademarco {
+		fill: transparent;
+		stroke: rgba(6,200,207,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.lineademarco {
+		overflow: visible;
+		position: absolute;
+		width: 1499px;
+		height: 1px;
+		left: 421.5px;
+		top: 660.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#marco3 {
+		fill: transparent;
+		stroke: rgba(6,200,207,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.marco3 {
+		position: absolute;
+		overflow: visible;
+		width: 613px;
+		height: 816px;
+		left: 421px;
+		top: 264px;
+	}
+	#marco2 {
+		fill: transparent;
+		stroke: rgba(6,200,207,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.marco2 {
+		position: absolute;
+		overflow: visible;
+		width: 449px;
+		height: 816px;
+		left: 1034px;
+		top: 264px;
+	}
+	#marco1 {
+		fill: transparent;
+		stroke: rgba(6,200,207,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.marco1 {
+		position: absolute;
+		overflow: visible;
+		width: 421px;
+		height: 816px;
+		left: 0px;
+		top: 264px;
+	}
+	#imagenes_mobiliario {
+		position: absolute;
+		width: 1870px;
+		height: 766px;
+		left: 23px;
+		top: 277px;
+		overflow: visible;
+	}
+	#Imagen_7 {
+		position: absolute;
+		width: 382px;
+		height: 332px;
+		left: 1488px;
+		top: 414px;
+		overflow: visible;
+	}
+	#Imagen_6 {
+		position: absolute;
+		width: 240px;
+		height: 352px;
+		left: 1559px;
+		top: 6px;
+		overflow: visible;
+	}
+	#Imagen_5 {
+		position: absolute;
+		width: 367px;
+		height: 339px;
+		left: 1047px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Imagen_4 {
+		position: absolute;
+		width: 356px;
+		height: 372px;
+		left: 1058px;
+		top: 394px;
+		overflow: visible;
+	}
+	#Imagen_3 {
+		position: absolute;
+		width: 445px;
+		height: 349px;
+		left: 479px;
+		top: 414px;
+		overflow: visible;
+	}
+	#Imagen_2 {
+		position: absolute;
+		width: 502px;
+		height: 358px;
+		left: 454px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Imagen_1 {
+		position: absolute;
+		width: 380px;
+		height: 647px;
+		left: 0px;
+		top: 71px;
+		overflow: visible;
+	}
+	#fondo_mobiliario {
+		fill: rgba(6,200,207,1);
+	}
+	.fondo_mobiliario {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 134px;
+		left: 0px;
+		top: 130px;
+	}
+	#fondo_encabezado {
+		fill: rgba(255,255,255,1);
+	}
+	.fondo_encabezado {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 130px;
+		left: 0px;
+		top: 0px;
+	}
+	#text_mobiliarios {
+		left: 655px;
+		top: 152px;
+		position: absolute;
+		overflow: visible;
+		width: 1086px;
+		height: 125px;
+		text-align: left;
+		font-family: Neue Haas Grotesk Display Pro;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+	}
+	#MOBILIARIOS {
+		left: 209px;
+		top: 161px;
+		position: absolute;
+		overflow: visible;
+		width: 269px;
+		height: 72px;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		color: rgba(255,255,255,1);
+	}
+	#encabezado {
+		position: absolute;
+		width: 593px;
+		height: 41px;
+		left: 717px;
+		top: 45px;
+		overflow: visible;
+	}
+	#ProductosDiseos {
+		left: 153px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 253px;
+		height: 41px;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: rgba(194,131,16,1);
+	}
+	#Contacto {
+		left: 477px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 117px;
+		height: 41px;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: tercero.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: rgba(194,131,16,1);
+	}
+	#Inicio {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 77px;
+		height: 41px;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: primero.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		color: rgba(194,131,16,1);
+	}
+</style>
+
+</head>
+<body>
+<div id="segundo">
+	<svg class="fondogeneralotros">
+		<rect id="fondogeneralotros" rx="0" ry="0" x="0" y="0" width="1920" height="1013">
+		</rect>
+	</svg>
+	<svg class="fondo_otros">
+		<rect id="fondo_otros" rx="0" ry="0" x="0" y="0" width="1920" height="134">
+		</rect>
+	</svg>
+	<div id="OTROS">
+		<span>OTROS</span>
+	</div>
+	<div id="imagenes_otros">
+		<img id="ima_celular" src="ima_celular.png" srcset="ima_celular.png 1x, ima_celular@2x.png 2x">
+			
+		<img id="ima_calabera" src="ima_calabera.png" srcset="ima_calabera.png 1x, ima_calabera@2x.png 2x">
+			
+		<img id="ima_moto" src="ima_moto.png" srcset="ima_moto.png 1x, ima_moto@2x.png 2x">
+			
+	</div>
+	<div id="text_pasa_3">
+		<span>Por último, realizamos los planos del producto y planteamos diversas alternativas de acabados naturales, esto con el objetivo de reducir el uso de productos tóxicos contra el ambiente.</span>
+	</div>
+	<div id="text_pasa_2">
+		<span>Junto a mi compañero nos encargamos de la parte metodológica del producto, el diseño y la investigación de mercado. También, realizamos una presentación a CITEmadera con oportunidades y hallazgos que encontramos en el proceso de investigación, esto con el fin de que la institución pueda aprovecharlas.</span>
+	</div>
+	<div id="text_pasa_1">
+		<span>Fuimos parte de un equipo en CITEmadera,. El objetivo del proyecto fue diseñar un juego de mobiliarios utilizando madera de plantación de Ucayali, a su vez, estos serían fabricador por maestros artesanos.</span>
+	</div>
+	<div id="imagenes_pasantias">
+		<img id="pasa_3" src="pasa_3.png" srcset="pasa_3.png 1x, pasa_3@2x.png 2x">
+			
+		<img id="pasa_2" src="pasa_2.png" srcset="pasa_2.png 1x, pasa_2@2x.png 2x">
+			
+		<img id="pasa_1" src="pasa_1.png" srcset="pasa_1.png 1x, pasa_1@2x.png 2x">
+			
+	</div>
+	<svg class="fondo_pasantias">
+		<rect id="fondo_pasantias" rx="0" ry="0" x="0" y="0" width="1920" height="134">
+		</rect>
+	</svg>
+	<div id="PASANTAS">
+		<span>PASANTÍAS</span>
+	</div>
+	<svg class="lineademarco" viewBox="0 0 1499 1">
+		<path id="lineademarco" d="M 0 0 L 1499 0">
+		</path>
+	</svg>
+	<svg class="marco3">
+		<rect id="marco3" rx="0" ry="0" x="0" y="0" width="613" height="816">
+		</rect>
+	</svg>
+	<svg class="marco2">
+		<rect id="marco2" rx="0" ry="0" x="0" y="0" width="449" height="816">
+		</rect>
+	</svg>
+	<svg class="marco1">
+		<rect id="marco1" rx="0" ry="0" x="0" y="0" width="421" height="816">
+		</rect>
+	</svg>
+	<div id="imagenes_mobiliario">
+		<img id="Imagen_7" src="Imagen_7.png" srcset="Imagen_7.png 1x, Imagen_7@2x.png 2x">
+			
+		<img id="Imagen_6" src="Imagen_6.png" srcset="Imagen_6.png 1x, Imagen_6@2x.png 2x">
+			
+		<img id="Imagen_5" src="Imagen_5.png" srcset="Imagen_5.png 1x, Imagen_5@2x.png 2x">
+			
+		<img id="Imagen_4" src="Imagen_4.png" srcset="Imagen_4.png 1x, Imagen_4@2x.png 2x">
+			
+		<img id="Imagen_3" src="Imagen_3.png" srcset="Imagen_3.png 1x, Imagen_3@2x.png 2x">
+			
+		<img id="Imagen_2" src="Imagen_2.png" srcset="Imagen_2.png 1x, Imagen_2@2x.png 2x">
+			
+		<img id="Imagen_1" src="Imagen_1.png" srcset="Imagen_1.png 1x, Imagen_1@2x.png 2x">
+			
+	</div>
+	<svg class="fondo_mobiliario">
+		<rect id="fondo_mobiliario" rx="0" ry="0" x="0" y="0" width="1920" height="134">
+		</rect>
+	</svg>
+	<svg class="fondo_encabezado">
+		<rect id="fondo_encabezado" rx="0" ry="0" x="0" y="0" width="1920" height="130">
+		</rect>
+	</svg>
+	<div id="text_mobiliarios">
+		<span>Gracias a CITEmadera pude obtener un mayor conocimiento sobre las diversas especies de madera y sus propiedades, esto me ayudó a poder explorar el desenvolvimiento del material en los muebles.</span>
+	</div>
+	<div id="MOBILIARIOS">
+		<span>MOBILIARIOS</span>
+	</div>
+	<div id="encabezado">
+		<div id="ProductosDiseos">
+			<span>Productos+Diseños</span>
+		</div>
+		<div onclick="application.goToTargetView(event)" id="Contacto">
+			<span>Contacto</span>
+		</div>
+		<div onclick="application.goToTargetView(event)" id="Inicio">
+			<span>Inicio</span>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+/*================
+ GobaL
+================
+/********************/
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+/* || Typography */
+@font-face {
+    font-family: 'NeueHaasDisplayBlack';
+    src: url('../font/NeueHaasDisplayBlack.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'NeueHaasDisplayMediu';
+    src: url('../font/NeueHaasDisplayMediu.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'NeueHaasDisplayLight';
+    src: url('../font/NeueHaasDisplayLight.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+/***********/
+/* || General styles */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    /* overflow-x: hidden; */
+    padding: 0;
+    margin: 0; 
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    background-color: #EEEEEE;
+    text-align: left;
+    color: #000000;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "NeueHaasDisplayMediu", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600; 
+    line-height: 1em;
+    margin: 0;
+}
+h2{
+    font-size: 6em;
+}
+p, span{
+    margin: 0;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-family: "NeueHaasDisplayLight", sans-serif;
+    opacity: 0.8;
+}
+
+figure{
+    margin: 0;
+}

@@ -1,0 +1,86 @@
+.products__container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10vh 15vh 1fr;
+}
+
+.products__menu{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.products__menu ul{
+    display: flex;
+    gap: 2em;
+    opacity: 0.9;
+    list-style: none;
+    margin: 0;
+    align-items: center;
+}
+
+.products__menu ul a{
+    font-size: 26px;
+    font-family: "NeueHaasDisplayLight", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #C28310;
+}
+
+.products__info{
+    background-color: #06C8CF;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    color: #FFFFFF;
+    gap: 2em;
+    padding: 0 2em;
+    align-items: center;
+}
+.products__grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.products__grid_item{
+    border: 1px solid #06C8CF;
+}
+
+.products__grid figure:nth-child(1){
+    grid-row: span 2;
+}
+.products__grid_item img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.pasantias__title{
+    background-color: #06C8CF;
+    color: #FFFFFF;
+    text-align: center;
+    padding: .2em;
+}
+.pasantias__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.pasantias__grid_item figure{
+    height: 220px;
+}
+
+.pasantias__grid_item figure img{
+    height: 100%;
+}
+.pasantias__grid_item{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.pasantias__grid_item p{
+    font-size: 24px;
+    text-align: center;
+    color: #047E82;
+}
